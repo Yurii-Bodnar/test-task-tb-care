@@ -1,0 +1,58 @@
+.section {
+  max-width: 1440px;
+  background-image: url(../images/bg-tb-care@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding: 386px 60px 60px 60px;
+  &__content {
+    padding: 50px;
+    background-color: #fff;
+    opacity: 0.9;
+    max-width: 700px;
+  }
+  &__title {
+    color: #017ee2;
+
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+  }
+  &__text {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    max-width: 600px;
+    margin-bottom: 26px;
+  }
+  &__button {
+    position: relative;
+    padding: 12px 44px;
+    color: #017ee2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: 26px;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: linear-gradient(270deg, #dff600 0% 0%, #017ee2 100% 100%);
+      z-index: -1;
+      margin: -1px;
+      border-radius: 26px;
+    }
+  }
+}
