@@ -41,6 +41,7 @@
 }
 .header__nav-datails {
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .header__nav-summary {
   list-style: none;
